@@ -1,0 +1,12 @@
+/*selector por etiqueta header*/
+header{
+  box-shadow: 0 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+/*selector combinado descendente*/
+header .logo img{
+  height: 95px;
+}
