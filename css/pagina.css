@@ -29,3 +29,9 @@ nav{
   justify-content: space-around;
 
 }
+.menu-horizontal li a{
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white  ;
+}
