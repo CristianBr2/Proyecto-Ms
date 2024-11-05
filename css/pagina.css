@@ -48,6 +48,21 @@ nav{
 .menu-horizontal li:hover .menu-vertical{
   display: block;
 }
+.menu-vertical li:hover{
+  background-color: black;
+}
+.menu-vertical li a{
+  display: block;
+  color: white;
+  padding: 10px 10px 10px 20px;
+}
+/*selector combinado descendente*/
+/*ordenando el menu*/
+
+/*agregando hover al menu*/
+nav ul li a:hover{
+  text-decoration: underline red;
+}
 
 
 
