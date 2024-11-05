@@ -135,10 +135,32 @@ section img:hover {
   opacity: 1;
   filter: contrast(120%);
 }
-/*.caracteristicas{
+.caracteristicas{
   text-align: center;
-}*/
+}
+.xr {
+  display: flex;
+  width: 600px;
+  height: 479Px;
+  float: right;
+}
 
+section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+/* hover es una pseudo clase */
+
+section img:hover {
+  cursor: crosshair;
+  width: 500px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+	
 
 
 
