@@ -35,3 +35,6 @@ nav{
   text-decoration: none;
   color: white  ;
 }
+.menu-horizontal li:hover{
+  background-color: red;
+}
