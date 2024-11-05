@@ -63,6 +63,58 @@ nav{
 nav ul li a:hover{
   text-decoration: underline red;
 }
+#inicio{
+  /*color: bold;
+  height: 100vh;
+  display: flex;
+  align-items: center;*/
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0 ,0, .3); /* Sombra negra con un poco de difuminado */
+  color: red; /* Color del texto */
+}
+#inicio p{
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); /* Sombra negra con un poco de difuminado */
+  color: rgb(0, 0, 0); /* Color del texto */
+}
+.inicio h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.inicio p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+/*selectores combinado descendente*/
+/*creando varios selectores con imagenes*/
+.contenido-de-inicio h1{
+  font-size: 3rem;
+}
+.contenido-de-inicio p{
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
