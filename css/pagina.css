@@ -138,6 +138,17 @@ section img:hover {
 .caracteristicas{
   text-align: center;
 }
+.caracteristicas .carectWave, .caracteristicas .carectXr{
+  text-align: center;
+  color:red;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.caracteristicas .conjunto{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
 .xr {
   display: flex;
   width: 600px;
