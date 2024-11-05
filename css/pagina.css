@@ -10,3 +10,22 @@ header{
 header .logo img{
   height: 95px;
 }
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+nav{
+  max-height: 900px;
+  margin: auto;
+  background-color: #333;
+  font-size: 15px;
+  margin-top: auto;
+}
+.menu-horizontal{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+
+}
