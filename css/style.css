@@ -71,8 +71,8 @@
   background-color: rgb(135, 211, 157);
 }
 /*creando diseño contacto*/
-/*selector combinado descendente*/
 /*creando el selector para el formulario*/
+/*selector combinado descendente*/
 .contacto{
   padding: 50px 20px;
   background-color: #f4f4f4;
@@ -110,4 +110,22 @@
 /*selector combinado descendente*/
 .contacto button:hover{
   background-color: #555;
+}
+/*creando pie de pagina*/
+/*selector class*/
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: red;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
 }
