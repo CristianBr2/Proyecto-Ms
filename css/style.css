@@ -70,3 +70,44 @@
   border-radius: 50rem;
   background-color: rgb(135, 211, 157);
 }
+/*creando diseño contacto*/
+/*selector combinado descendente*/
+/*creando el selector para el formulario*/
+.contacto{
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+/*selector combinado descendente*/
+.contacto form{
+ max-width: 400px;
+ margin: 0 auto;
+}
+/*selector combinado descendente*/
+.contacto label{
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold ;
+
+}
+/*selector combinado descendente*/
+.contacto input, 
+.contacto textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/*selector combinado descendente*/
+.contacto button{
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer; 
+}
+/*selector combinado descendente*/
+.contacto button:hover{
+  background-color: #555;
+}
