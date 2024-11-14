@@ -1,37 +1,15 @@
-body{
-  font-size: Arial;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: rgb(231, 231, 231);
-}
-/*selector por etiqueta header*/
-header{
-  box-shadow: 0 0 10px;
+.wave{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+  width: 600px;
+  height: 474px;
+  float: left;
 }
-img:hover {
-  opacity: 1;
-  filter: contrast(120%);
-}
-
-/*.caracteristicas{
-.caracteristicas{
-  text-align: center;
-}*/
-.caracteristicas .carectWave, .caracteristicas .carectXr{
-  text-align: center;
-  color:red;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-}
-.caracteristicas .conjunto{
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
+section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
 }
 .xr {
   display: flex;
@@ -39,6 +17,7 @@ img:hover {
   height: 479Px;
   float: right;
 }
+
 section img {
   width: 0px;
   flex-grow: 1;
@@ -54,14 +33,33 @@ section img:hover {
   opacity: 1;
   filter: contrast(120%);
 }
+/*selector x etiqueta*/
+body{
+  font-size: Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(231, 231, 231);
+}
+/*selector por etiqueta header*/
+header{
+  box-shadow: 0 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
 /*selector combinado descendente*/
 header .logo img{
   height: 95px;
 }
+/*selector combinado descendente*/
+/*creando el hader, logo, img y ul*/
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
+
 }
 nav{
   max-height: 900px;
@@ -74,6 +72,7 @@ nav{
   list-style: none;
   display: flex;
   justify-content: space-around;
+
 }
 .menu-horizontal li a{
   display: block;
@@ -83,6 +82,13 @@ nav{
 }
 .menu-horizontal li:hover{
   background-color: red;
+}
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgba(0, 0 ,0, .5);
 }
 .menu-horizontal li:hover .menu-vertical{
   display: block;
@@ -97,74 +103,24 @@ nav{
 }
 /*selector combinado descendente*/
 /*ordenando el menu*/
+
 /*agregando hover al menu*/
 nav ul li a:hover{
   text-decoration: underline red;
 }
-#inicio{
-  /*color: bold;
-  height: 100vh;
-  display: flex;
-  align-items: center;*/
+.caracteristicas{
   text-align: center;
-  text-shadow: 2px 2px 2px rgba(0, 0 ,0, .3); /* Sombra negra con un poco de difuminado */
-  color: red; /* Color del texto */
 }
-#inicio p{
+.caracteristicas .carectWave, .caracteristicas .carectXr{
   text-align: center;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); /* Sombra negra con un poco de difuminado */
-  color: rgb(0, 0, 0); /* Color del texto */
-}
-.inicio h1{
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.inicio p{
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-/*selectores combinado descendente*/
-/*creando varios selectores con imagenes*/
-.contenido-de-inicio h1{
-  font-size: 3rem;
-}
-.contenido-de-inicio p{
-  font-size: 1.5rem;
-}
-.motos-buscadas h2{
-  /*text-align: center;
   color:red;
-  box-shadow: 0 0 10px;
-  box-sizing: 20px;*/
-  text-align: center;
-  text-shadow: 2px 2px 2px rgba(0, 0 ,0, .3); /* Sombra negra con un poco de difuminado */
-  color: rgba(0, 0, 0, 0.745); /* Color del texto */
-}
-.motos-buscadas h2{
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  font-style: normal;
 }
-.wave{
-  display: flex;
-  width: 600px;
-  height: 474px;
-  float: left;
-}
-section img {
-  width: 0px;
-  flex-grow: 1;
-  object-fit: cover;
-  opacity: 0.8;
-  transition: 0.5s ease;
-}
-section img:hover {
-  cursor: crosshair;
-  width: 500px;
-  opacity: 1;
-  filter: contrast(120%);
+.caracteristicas .conjunto{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
 }
 
 
