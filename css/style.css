@@ -1,3 +1,13 @@
+
+/*selectores combinado descendente*/
+/*creando varios selectores con imagenes*/
+.contenido-de-inicio h1{
+  font-size: 3rem;
+}
+.contenido-de-inicio p{
+  font-size: 1.5rem;
+}
+
 .wave{
   display: flex;
   width: 600px;
@@ -173,6 +183,7 @@ nav ul li a:hover{
 
 /*Moviendo el codigo arriba Cristian*/
 
+>>>>>>> eb1631d1ddba74ef20e87a1a93520b4a1bafaebd
 /*creando el selector por ID*/
 
 #nosotros{
@@ -181,6 +192,7 @@ nav ul li a:hover{
   text-align: center;
   background-color: #f4f4f4;
 }
+
 /*selector combinado descendente*/
 #nosotros h2{
   font-size: 2.5rem;
@@ -202,9 +214,6 @@ nav ul li a:hover{
 .servicios h2{
   font-size: 2.5rem;
 }
-
-
-
 
 .servicios h2{
   text-align: center;
@@ -246,6 +255,8 @@ nav ul li a:hover{
   box-shadow: 0px 2px  0px #1b221e;
   border-radius: 50rem;
   background-color: rgb(135, 211, 157);
+<<<<<<< HEAD
+=======
 }
 /*creando diseño contacto*/
 /*creando el selector para el formulario*/
@@ -305,4 +316,5 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+>>>>>>> eb1631d1ddba74ef20e87a1a93520b4a1bafaebd
 }
