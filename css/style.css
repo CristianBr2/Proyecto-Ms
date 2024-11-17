@@ -7,7 +7,6 @@
 .contenido-de-inicio p{
   font-size: 1.5rem;
 }
-
 .wave{
   display: flex;
   width: 600px;
@@ -134,8 +133,6 @@ nav ul li a:hover{
 }
 
 /*Moviendo el codigo arriba Cristian*/
-
->>>>>>> eb1631d1ddba74ef20e87a1a93520b4a1bafaebd
 /*creando el selector por ID*/
 #nosotros{
   padding: 50px 20px;
