@@ -1,7 +1,4 @@
 
-<<<<<<< HEAD
-
-=======
 /*selectores combinado descendente*/
 /*creando varios selectores con imagenes*/
 .contenido-de-inicio h1{
@@ -10,7 +7,7 @@
 .contenido-de-inicio p{
   font-size: 1.5rem;
 }
->>>>>>> f9a42dba85ae7ba821a6b35c35da9e83c9d2e7ac
+
 .wave{
   display: flex;
   width: 600px;
@@ -184,10 +181,7 @@ nav ul li a:hover{
 }
 
 /*Moviendo el codigo arriba Cristian*/
-<<<<<<< HEAD
 
-=======
->>>>>>> f9a42dba85ae7ba821a6b35c35da9e83c9d2e7ac
 /*creando el selector por ID*/
 
 #nosotros{
