@@ -1,17 +1,9 @@
 
-/*selectores combinado descendente*/
-/*creando varios selectores con imagenes*/
-.contenido-de-inicio h1{
-  font-size: 3rem;
-}
-.contenido-de-inicio p{
-  font-size: 1.5rem;
-}
 
 .wave{
   display: flex;
   width: 600px;
-  height: 479px;
+  height: 487px;
   float: left;
 }
 section img {
@@ -24,8 +16,9 @@ section img {
 .xr {
   display: flex;
   width: 600px;
-  height: 479Px;
+  height: 486px;
   float: right;
+  margin-top: 12px;
 }
 
 section img {
@@ -166,7 +159,6 @@ nav ul li a:hover{
 }
 .caracteristicas{
   text-align: center;
-  margin-top: 50px;
 }
 .caracteristicas .carectWave, .caracteristicas .carectXr{
   text-align: center;
@@ -180,28 +172,30 @@ nav ul li a:hover{
   font-weight: 200;
 }
 
-
 /*Moviendo el codigo arriba Cristian*/
 
->>>>>>> eb1631d1ddba74ef20e87a1a93520b4a1bafaebd
 /*creando el selector por ID*/
 
 #nosotros{
-  margin-top: 56px;
   padding: 50px 20px;
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #e6e6e6e6;
 }
 
 /*selector combinado descendente*/
 #nosotros h2{
   font-size: 2.5rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 00;
 }
 /*selector combinado descendente*/
 #nosotros p{
-  max-width: 800px;
+  max-width: 1000px;
   margin:0 auto;
   font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
 }
 /*selector class*/
 /*creando la seccion de serivicios*/
@@ -226,17 +220,18 @@ nav ul li a:hover{
   font-weight: 300;
   padding: 10px 20px;
   text-decoration: none;
-  background-color: rgb(135, 211, 157);
+  background-color: #e6e6e6e6;
   border-radius: 15px;
 }
 .servicios a:hover{
-  box-shadow: 0px 2px  0px #1b221e;
+  box-shadow: 0px 2px  0px #ff0000;
   border-radius: 20px;
  }
 .en-cuenta {
   display: flex; 
   justify-content: space-between; 
   margin: 20px; 
+  margin-top: 50px;
 }
 .en-cuenta p {
   margin: 0; 
@@ -245,7 +240,6 @@ nav ul li a:hover{
   width: 30%; 
   box-sizing: border-box; 
   border-radius: 50rem;
-  box-shadow: 0px 2px  0px #333;
 }
 .en-cuenta .resaltar{
   font-family: "Poppins", sans-serif;
@@ -255,53 +249,85 @@ nav ul li a:hover{
   box-shadow: 0px 2px  0px #1b221e;
   border-radius: 50rem;
   background-color: rgb(135, 211, 157);
-<<<<<<< HEAD
-=======
+  box-shadow: 0px 3px  0px #5cac4a;
 }
 /*creando diseño contacto*/
 /*creando el selector para el formulario*/
 /*selector combinado descendente*/
-.contacto{
-  padding: 50px 20px;
-  background-color: #f4f4f4;
-  text-align: center;
-}
-/*selector combinado descendente*/
-.contacto form{
- max-width: 400px;
- margin: 0 auto;
-}
-/*selector combinado descendente*/
-.contacto label{
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold ;
 
-}
-/*selector combinado descendente*/
-.contacto input, 
-.contacto textarea{
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-/*selector combinado descendente*/
-.contacto button{
-  padding: 10px 20px;
-  background-color: #333;
-  color: white;
-  border: none;
-  cursor: pointer; 
-}
-/*selector combinado descendente*/
-.contacto button:hover{
-  background-color: #555;
-}
+/*formulario*/
+
+.contacto{
+  margin-top: 70px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#e6e6e6e6;
+
+  }
+  .formu{
+    background-color: #e6e6e6e6;
+  }
+  .contacto form{
+      padding: 50px 55px;
+      box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+      border-radius: 20px;
+      text-align: center;
+      width: 430px;
+  }
+  .contacto .input-group{
+      display:flex;
+      flex-direction: column;
+      text-align: left;
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+  }
+  .contacto h2{
+      color:black;
+      font-size: 35px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+  }
+  .contacto label{
+      color: black;
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 15px;
+  }
+  .contacto input,textarea{
+      padding: 17px 25px;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      background-color: #e6e6e6e6; 
+      border: 2px solid #e6e6e6e6;
+      color: #283629;
+  }
+  .contacto .verde:hover{
+      font-size: 16px;
+      color:#ffffff;
+      border-color: #51D94C;
+      border-radius: 25px;
+      background-color: #51D94C;
+      box-shadow:  0 0 20px rgb(25, 254, 0, 0.4);
+      cursor:pointer;
+  }
+  .contacto .rojo:hover{
+      font-size: 16px;
+      color:#ffffff;
+      border-color: #ff0000;
+      border-radius: 25px;
+      background-color: #ff0000;
+      box-shadow:  0 0 20px rgb(182, 12, 12);
+      cursor:pointer;
+  }
+/*fin formulario*/
 /*creando pie de pagina*/
 /*selector class*/
 footer {
+  margin-top: 30px;
   text-align: center;
   padding: 20px;
   background-color: #333;
@@ -316,5 +342,5 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
->>>>>>> eb1631d1ddba74ef20e87a1a93520b4a1bafaebd
+
 }
