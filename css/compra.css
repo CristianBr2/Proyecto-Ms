@@ -1,0 +1,68 @@
+/*cartel mas el fondo*/
+body {
+    font-family: Times, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(69, 82, 82); 
+    animation: cambiarFondo 8s infinite alternate; 
+}
+@keyframes cambiarFondo {
+    0% {
+        background-color: rgb(93, 107, 107); 
+    }
+    25% {
+        background-color: rgb(87, 84, 95);  
+    }
+    50% {
+        background-color: rgb(77, 75, 95); 
+    }
+    75% {
+        background-color: rgb(68, 68, 68); 
+    }
+    100% {
+        background-color: rgb(84, 107, 107); 
+    }
+}
+.cartel {
+    position: sticky;
+    top: 0;
+    left: 0; 
+    transform: translateY(-50%);
+    width: 60%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    animation: moverCartel 10s linear infinite;
+    border: none;
+}
+.cartel::before {
+    content: "¡Compra la moto de tus sueños!";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(230, 221, 221);
+    background-color: rgb(139, 139, 139);
+    padding: 50px;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    border-radius: 0;
+    
+}
+
+@keyframes moverCartel {
+    0% {
+        transform: translateX(-50%); 
+    }
+    50% {
+        transform: translateX(10); 
+    }
+    100% {
+        transform: translateX(300%); 
+    }
+}
