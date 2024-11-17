@@ -10,7 +10,7 @@
 .wave{
   display: flex;
   width: 600px;
-  height: 474px;
+  height: 479px;
   float: left;
 }
 section img {
@@ -117,8 +117,55 @@ nav{
 nav ul li a:hover{
   text-decoration: underline red;
 }
+#inicio{
+  /*color: bold;
+  height: 100vh;
+  display: flex;
+  align-items: center;*/
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0 ,0, .3); /* Sombra negra con un poco de difuminado */
+  color: red; /* Color del texto */
+}
+#inicio p{
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); /* Sombra negra con un poco de difuminado */
+  color: rgb(0, 0, 0); /* Color del texto */
+}
+/*selectores combinado descendente*/
+/*creando varios selectores con imagenes*/
+.contenido-de-inicio h1{
+  font-size: 3rem;
+}
+.contenido-de-inicio p{
+  font-size: 1.5rem;
+}
+.motos-buscadas h2{
+  /*text-align: center;
+  color:red;
+  box-shadow: 0 0 10px;
+  box-sizing: 20px;*/
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0 ,0, .3); /* Sombra negra con un poco de difuminado */
+  color: rgba(0, 0, 0, 0.745); /* Color del texto */
+}
+.inicio h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.inicio p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.motos-buscadas h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 .caracteristicas{
   text-align: center;
+  margin-top: 50px;
 }
 .caracteristicas .carectWave, .caracteristicas .carectXr{
   text-align: center;
@@ -132,9 +179,12 @@ nav ul li a:hover{
   font-weight: 200;
 }
 
+
 /*Moviendo el codigo arriba Cristian*/
 /*creando el selector por ID*/
+
 #nosotros{
+  margin-top: 56px;
   padding: 50px 20px;
   text-align: center;
   background-color: #f4f4f4;
