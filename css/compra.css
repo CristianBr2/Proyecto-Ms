@@ -210,4 +210,46 @@ footer {
         box-shadow:  0 0 20px rgb(182, 12, 12);
         cursor:pointer;
 }
+/*segundo cartel de compra finalizada*/
+.cartel2 {
+    position: absolute;
+    top: 20%;
+    left: 0; 
+    transform: translateY(-50%);
+    width: 60%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    animation: moverCartel 10s linear infinite;
+    border: none;
+}
+.cartel2::before {
+    content: "¡GRACIAS POR SU COMPRA!";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(230, 221, 221);
+    padding: 50px;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    border-radius: 0;
+    
+}
+@keyframes moverCartel {
+    0% {
+        transform: translateX(-50%); 
+    }
+    50% {
+        transform: translateX(10); 
+    }
+    100% {
+        transform: translateX(300%);
+    }
+}
+/*boton volver*/
 
